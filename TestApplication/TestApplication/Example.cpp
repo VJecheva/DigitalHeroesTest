@@ -9,3 +9,8 @@ int multiply(int a, int b)
 {
 	return a*b;
 }
+
+int divideByTwo(int a)
+{
+	return a/2;
+}

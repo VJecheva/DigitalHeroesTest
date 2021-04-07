@@ -11,6 +11,6 @@ int main()
     cin >> b;
     cout << "The sum of "<<a<<" and "<<b<<" is "<<sum(a,b)<<endl;
     cout << "The multiplication of " << a << " and " << b << " is " << multiply(a, b) << endl;
-
+    cout << "Divided by two: "<<divideByTwo(a)<<endl;   
 }
 
