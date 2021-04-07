@@ -19,3 +19,8 @@ int substract(int a, int b)
 {
 	return a - b;
 }
+
+int divideByFive(int a)
+{
+	return a/5;
+}
