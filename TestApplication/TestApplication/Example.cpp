@@ -25,3 +25,7 @@ float squareRoot(int a, int b)
 	int c;
 	return sqrt(a + b);
 }
+int divide(int a, int b)
+{
+	return a / b;
+}

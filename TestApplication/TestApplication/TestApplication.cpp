@@ -16,7 +16,7 @@ int main()
 
     cout << "I have branch" << endl;
 
-    cout<< "The squareRoot of  sum is" << a << " and " << b << " is " << squareRoot(a, b) << endl;
-
+    cout<< "The squareRoot of  sum " << a << " and " << b << " is " << squareRoot(a, b) << endl;
+    cout << "The number " << a << " divided by the number " << b << " is: " << divide(a, b) << endl;
 }
 
