@@ -20,12 +20,13 @@ int substract(int a, int b)
 {
 	return a - b;
 }
-float squareRoot(int a, int b)
+float squareRoot(int a)
 {
-	int c;
-	return sqrt(a + b);
+	//int c;
+	return sqrt(a);
 }
 int divide(int a, int b)
 {
-	return a / b;
+	if (b!=0) return a / b;
+	return a;
 }
