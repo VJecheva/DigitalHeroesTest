@@ -4,12 +4,15 @@ using namespace std;
 
 int main()
 {
-    int a, b;
+    int a, b, c;
     cout << "a=";
     cin >> a;
     cout << "b=";
     cin >> b;
+    cout << "c=";
+    cin >> c;
     cout << "The sum of "<<a<<" and "<<b<<" is "<<sum(a,b)<<endl;
+    cout << "The sum of 3 numbers is: "  << sumMore(a, b,c) << endl;
     cout << "The multiplication of " << a << " and " << b << " is " << multiply(a, b) << endl;
     cout << "Divided by two: "<<divideByTwo(a)<<endl;   
     cout<< "The substraction of " << a << " and " << b << " is " << substract(a, b) << endl;

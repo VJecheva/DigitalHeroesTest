@@ -5,6 +5,10 @@ int sum(int a, int b)
 {
 	return a+b;
 }
+int sumMore(int a, int b,int c)
+{
+	return a + b + c;
+}
 
 int multiply(int a, int b)
 {
